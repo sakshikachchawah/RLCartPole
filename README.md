@@ -1,4 +1,4 @@
-DQN_Game_Agent_with_Streamlit — README
+DQN_Game_Agent_with_Streamlit —
 A complete, end-to-end project that trains a Deep Q-Network (DQN) to play CartPole-v1 using PyTorch and Gymnasium, and provides a Streamlit web UI to load trained models, run simulations (with rendered frames and GIF export), and visualize training history and checkpoints.
 
 This README gives clear instructions to set up, train, simulate, and troubleshoot the project.
@@ -16,7 +16,6 @@ Streamlit application (Simulation & Training Visualization)
 Key implementation details (target network, replay buffer, epsilon decay)
 Recommended hyperparameters & tuning tips
 Troubleshooting & platform notes
-License
 Project overview
 
 We implement a DQN agent (PyTorch) to solve CartPole-v1 (Gymnasium).
@@ -194,9 +193,7 @@ Replace simple MSE with Huber loss for more stable gradients.
 Add CLI arguments (argparse) to train.py for flexible experiments.
 Add hyperparameter sweep scripts (Optuna or grid search).
 Add multi-environment parallel training for faster data collection.
-License
 
-MIT License — see LICENSE file (or include an MIT notice if you prefer).
 Quick commands summary
 
 Install deps:
@@ -205,7 +202,3 @@ Train:
 python train.py
 Run app:
 streamlit run app.py
-(Headless) Run Streamlit with xvfb:
-xvfb-run -s "-screen 0 1400x900x24" streamlit run app.py
-i have created app , dqn_agent , train and requirements files
-now according to the readme what all do i have to create next?
